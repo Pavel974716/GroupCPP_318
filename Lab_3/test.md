@@ -57,12 +57,12 @@ int returnValue() {
     return k;
 }
 
-int return() {
+int returnV() {
     return 5;
 }
 
 int main() {
-    std::cout << return() << std::endl;       
+    std::cout << returnV() << std::endl;       
     std::cout << returnValue() << std::endl;  
     return 0;
 }
@@ -196,11 +196,11 @@ std::cout << VALUE <<"\n";
 
 int main() {
 #if (VALUE == 0)
-    std::cout << VALUE << "\n";
+    std::cout << VALUE << '\n';
 #elif (VALUE == 1)
-    std::cout << VALUE << "\n";
+    std::cout << VALUE << '\n';
 #else
-    std::cout << VALUE << "\n";
+    std::cout << VALUE << '\n';
 #endif
     return 0;
 }
